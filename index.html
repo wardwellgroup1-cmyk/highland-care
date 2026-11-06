@@ -29,36 +29,7 @@
     --font-display: 'Fraunces', Georgia, serif;
     --font-body: 'Outfit', system-ui, sans-serif;
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0d1219;
-      --fg: #e2e8f0;
-      --fg-soft: #8a9bb2;
-      --accent: #3da8e0;
-      --accent-glow: #5dc0f5;
-      --cta-call: #34d399;
-      --cta-text: #60a5fa;
-      --surface: #1a2433;
-      --border: #2a3a4e;
-      --pill-bg: #132a1e;
-      --pill-fg: #34d399;
-      color-scheme: dark;
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #0d1219;
-    --fg: #e2e8f0;
-    --fg-soft: #8a9bb2;
-    --accent: #3da8e0;
-    --accent-glow: #5dc0f5;
-    --cta-call: #34d399;
-    --cta-text: #60a5fa;
-    --surface: #1a2433;
-    --border: #2a3a4e;
-    --pill-bg: #132a1e;
-    --pill-fg: #34d399;
-    color-scheme: dark;
-  }
+  /* Light only — no dark mode */
   body {
     background: var(--bg);
     color: var(--fg);
